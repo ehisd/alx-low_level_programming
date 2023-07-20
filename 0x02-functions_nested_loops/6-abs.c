@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <limits.h>
 #include "main.h"
 
 /**
@@ -18,5 +16,6 @@ int _abs(int i)
 	{
 		return (i * -1);
 	}
+	return (0);
 }
 
